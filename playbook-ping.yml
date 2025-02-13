@@ -1,0 +1,4 @@
+- hosts: domoticz
+  tasks:
+    - name: Ping all hosts
+      ping:
